@@ -1,5 +1,7 @@
 // ************** chapter 01 Tasks **************
 
+
+
 // Question 01 //
 
 // alert("Welcome to Our website");
@@ -17,7 +19,7 @@
 // alert("Welcome to JS Land...")
 // alert("Happy Coding!..")
 
-// Question 05 // 
+// Question 05 //
 
 // completed in console ✅
 
@@ -26,7 +28,10 @@
 // no change occurs on any position of script ✅
 
 
+
+
 // ************** chapter 02 Tasks **************
+
 
 
 // Question 01 //
@@ -77,12 +82,15 @@
 // alert(ajeeb);
 
 
+
 // ************** chapter 03 Tasks **************
+
+
 
 // Question 01 //
 
 // var age = 20;
-// alert("I am " + age + " years old"); 
+// alert("I am " + age + " years old");
 
 // Question 02 //
 
@@ -106,7 +114,11 @@
 // document.write(visitorName + " Booked " + Quantity + " " + productTitle);
 
 
+
+
 // ************** chapter 04 Tasks **************
+
+
 
 
 // Question 01 //
@@ -120,7 +132,8 @@
 // var 2you;
 // var user name;
 // var prompt;
-// var username;
+// var alert;
+// var username; (legal but not prefered)
 
 // legal variables
 
@@ -133,10 +146,17 @@
 
 // Question 03 //
 
-// not done ❌
+// document.write("Variable names can only contain numbers , $ and _ . For Example: $my_1stVariable" + "<br>")
+// document.write("Variable must begin with a letter , $ or _ . For example: $name , _name or name" + "<br>")
+// document.write("Variable names are case sensitive." + "<br>")
+// document.write("Variable names should not be JS Variables" + "<br>")
+
+
 
 
 // ************** chapter 05 Tasks **************
+
+
 
 
 // Question 01 //
@@ -227,18 +247,23 @@
 
 // Question 05 //
 
-// var table = 2
+// var table = +prompt("Enter any number")
 
-// document.write("2 * 1 = " + table * 1)
-// document.write("<br>2 * 2 = " + table * 2)
-// document.write("<br>2 * 3 = " + table * 3)
-// document.write("<br>2 * 4 = " + table * 4)
-// document.write("<br>2 * 5 = " + table * 5)
-// document.write("<br>2 * 6 = " + table * 6)
-// document.write("<br>2 * 7 = " + table * 7)
-// document.write("<br>2 * 8 = " + table * 8)
-// document.write("<br>2 * 9 = " + table * 9)
-// document.write("<br>2 * 10 = " + table * 10)
+// if(table == ""){
+//     alert("Error! Please Enter a Number")
+// }else{
+// document.write(table + " * 1 = " + table * 1)
+// document.write("<br>" + table + " * 2 = " + table * 2)
+// document.write("<br>" + table + " * 3 = " + table * 3)
+// document.write("<br>" + table + " * 4 = " + table * 4)
+// document.write("<br>" + table + " * 5 = " + table * 5)
+// document.write("<br>" + table + " * 6 = " + table * 6)
+// document.write("<br>" + table + " * 7 = " + table * 7)
+// document.write("<br>" + table + " * 8 = " + table * 8)
+// document.write("<br>" + table + " * 9 = " + table * 9)
+// document.write("<br>" + table + " * 10 = " + table * 10)
+// }
+
 
 // Question 06 //
 
@@ -368,3 +393,303 @@
 // document.write("<br>Amount of snacks per day : " + inADay);
 
 // document.write("<br>You will need " + totalSnacks + " " + snack + " to last you until the age of " + maxAge);
+
+
+
+
+// ****************** IF-ElSE Task ***************** //
+
+
+
+// Question 1 //
+
+// var userNumber = +prompt("Enter any number");
+
+// if(userNumber % 3 == 0){
+
+//     alert(userNumber + " is divisible by 3")
+// }else{
+//     alert(userNumber + " is not divisible by 3");
+// }
+
+
+// Question 2 //
+
+
+// var evenOdd = +prompt("Enter any number that you want to know it is Even or Odd");
+
+// if(evenOdd % 2 == 0){
+
+//     alert(evenOdd + " is Even")
+
+// }else{
+//     alert(evenOdd + " is Odd")
+// }
+
+
+// Question 3 //
+
+
+// var age = +prompt("Enter your Age")
+
+// if(age > 18){
+
+//     alert("Old Enough")
+
+// }else{
+
+//     alert("Too Young")
+// }
+
+
+// Question 4 //
+
+
+// var Name = prompt("Enter Your name")
+
+// var myName = "waasey"
+
+// if(Name === myName){
+
+//     alert("Congratulations!")
+// }
+
+
+// Question 5 //
+
+// var userNumber = +prompt("Enter any number");
+
+// if(userNumber % 3 == 0){
+
+//     alert(userNumber + " is divisible by 3")
+// }else{
+//     alert(userNumber + " is not divisible by 3");
+// }
+
+
+// Question 6 //
+
+// not done ❌
+
+
+
+// Question 7 //
+
+
+// var number1 = +prompt("Enter the first number")
+
+// var number2 = +prompt("Enter the second number")
+
+// var operation = prompt("Enter the operation name you want between numbers..?")
+
+
+// if(operation == '+'){
+
+//     alert(number1 + number2)
+
+// }else if (operation == '-'){
+
+//     alert(number1 - number2)
+
+// }else if(operation == '*'){
+
+//     alert(number1 * number2)
+
+// }else if(operation == '/'){
+
+//     alert(number1 / number2)
+
+// }else if (operation == '%'){
+
+//     alert(number1 % number2)
+
+// }else{
+
+//     alert("Error! Not an Operation")
+// }
+
+
+// Question 9 //
+
+
+// var year = +prompt("Enter Year")
+
+// if(year % 4 == 0){
+
+//     alert("leap year")
+
+// }else{
+
+//     alert("Not a leap year")
+// }
+
+
+
+// Question 10 //
+
+
+// var password = "karachi321"
+
+// var userPassword = prompt("Enter Your Password")
+
+// if(userPassword == ""){
+
+//     alert("Error! Password not found")
+
+// }else if (userPassword == password){
+
+//     alert("Correct! the password you entered matches the original password")
+
+// }else{
+//     alert("Incorrect Password")
+// }
+
+
+
+// Question 11 //
+
+
+// else{
+
+//     document.write("You are not Fahad")
+// }
+
+
+
+// Question 12 //
+
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     alert(greeting = "Good day");
+// } else {
+//     alert(greeting = "Good evening");
+// }
+
+
+
+// Question 13 //
+
+
+
+// var int1 = prompt("enter anyting")
+// var int2 = prompt("enter anyting")
+
+// if(int1.length > int2.length){
+
+//     alert(int1 + " is largest")
+
+// }else if (int1.length < int2.length){
+
+//     alert(int2 + " is largest")
+
+// }else if (int1.length == int2.length){
+
+//     alert("Both are equal")
+
+// }else{
+
+//     alert("ok")
+// }
+
+
+
+// Question 14 //
+
+
+// var number = +prompt("Enter any Number you want to know whether it is positive , negative or zero")
+
+// if(number == 0){
+
+//     alert("0")
+
+// }else if (number > 0){
+
+//     alert("positive")
+
+// }else if(number < 0){
+
+//     alert("negative")
+
+// }else{
+
+//     alert("Error! Please type a number")
+// }
+
+
+
+// Question 16 //
+
+// not done ❌
+
+
+
+// Question 18 //
+
+// There are two ways:
+
+// 1) 10 != 8
+// 2) 10 !== 8
+
+// Both will give 'true'
+
+
+
+// Question 19 //
+
+
+// var month = +prompt("Enter the month number I'll tell you month name..?")
+
+// if(month == 1){
+
+//     alert("January")
+
+// }else if(month == 2){
+
+//     alert("February")
+
+// }else if(month == 3){
+
+//     alert("March")
+
+// }else if(month == 4){
+
+//     alert("April")
+
+// }else if(month == 5){
+
+//     alert("May")
+
+// }else if(month == 6){
+
+//     alert("June")
+
+// }else if(month == 7){
+
+//     alert("July")
+
+// }else if(month == 8){
+
+//     alert("August")
+
+// }else if(month == 9){
+
+//     alert("September")
+
+// }else if(month == 10){
+
+//     alert("October")
+
+// }else if(month == 11){
+
+//     alert("November")
+
+// }else if(month == 12){
+
+//     alert("December")
+
+// }else{
+
+//     alert("Error! Not a Month")
+// }
