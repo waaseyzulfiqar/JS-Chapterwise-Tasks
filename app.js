@@ -469,7 +469,27 @@
 
 // Question 6 //
 
-// not done ❌
+
+// var userInput = prompt("Enter any alphabet or number")
+
+// var code = userInput.charCodeAt()
+
+// if(code >= 65 && code <= 90){
+
+//     alert("UpperCase")
+
+// }else if(code >= 97 && code <= 122){
+
+//     alert("LowerCase")
+
+// }else if(code >= 48 && code <= 57){
+
+//     alert("Number")
+
+// }else{
+
+//     alert("Error! Please Enter either an Alphabet or a Number")
+// }
 
 
 
@@ -621,7 +641,28 @@
 
 // Question 16 //
 
-// not done ❌
+
+// var userData = prompt("Enter any value you want to know type of...?")
+
+// alert(typeof(userData))
+
+
+
+// Question 17 //
+
+
+
+// var vowel = prompt("Enter any alphabet if you want to learn vowels..?")
+
+// if(vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o' || vowel == 'u'){
+
+//     alert("It is a Vowel")
+
+// }else{
+
+//     alert("Not a Vowel")
+// }
+
 
 
 
@@ -692,4 +733,20 @@
 // }else{
 
 //     alert("Error! Not a Month")
+// }
+
+
+
+// Question 20 //
+
+
+// var age = +prompt("Enter Your Age")
+
+// if(age < 18){
+
+//     alert("Too young")
+
+// }else{
+
+//     alert("Old enough")
 // }
