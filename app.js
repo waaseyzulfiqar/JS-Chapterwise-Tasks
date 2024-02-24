@@ -740,6 +740,7 @@
 // Question 20 //
 
 
+
 // var age = +prompt("Enter Your Age")
 
 // if(age < 18){
@@ -750,3 +751,387 @@
 
 //     alert("Old enough")
 // }
+
+
+
+
+
+// ****************** FUNCTIONS Task ***************** //
+
+
+
+// Question 1 //
+
+
+// function hello(){
+
+//     alert("hello world")
+
+// }
+
+// hello()
+
+
+
+// Question 2 //
+
+
+// function dateAndTime(date){
+
+//     var date = new Date()
+//     return alert(date)
+// }
+
+// dateAndTime()
+
+
+
+// Question 3 //
+
+
+
+// var fName = prompt("Enter your first name")
+// var lName = prompt("enter your last name")
+
+// function greetUser(){
+
+//     alert("Welcome to my website " + fName + " " + lName)
+// }
+
+// greetUser(fName , lName)
+
+
+
+// Question 4 //
+
+
+// var num1 = +prompt("Enter first number")
+
+// var num2 = +prompt("Enter second number")
+
+// function sum(){
+
+//     alert(num1 + num2)
+// }
+
+// sum(num1 , num2)
+
+
+
+
+// Question 5 //
+
+
+// var num1 = +prompt("Enter first number")
+
+// var num2 = +prompt("Enter second number")
+
+// var operator = prompt("Enter any operator you want to do calculations between num1 and num2")
+
+// function calculator(num1 , num2 , operator){
+
+//     if(operator == '+'){
+
+//         alert(num1 + num2)
+
+//     }else if(operator == '-'){
+
+//         alert(num1 - num2)
+
+//     }else if(operator == '*'){
+
+//         alert(num1 * num2)
+
+//     }else if(operator == '/'){
+
+//         alert(num1 / num2)
+
+//     }else if(operator == '%'){
+
+//         alert(num1 % num2)
+
+//     }else{
+
+//         alert("Error! Not a Valid Operator")
+//     }
+// }
+
+// calculator(num1 , num2 , operator)
+
+
+
+// Question 6 //
+
+
+// function square(num){
+
+//     alert(num * num)
+// }
+
+// square(9)
+
+
+
+// Question 7 //
+
+// factorial of a given number ❌
+
+
+// Question 8 //
+
+// counting ❌
+
+
+
+// Question 9 //
+
+
+// function calcHypotenuse(base , perpendicular ,hypotenuse){
+
+//     var base = prompt("Enter base value")
+//     var perpendicular = prompt("Enter perpendicular value")
+
+//     var hypotenuse = square(base) + square(perpendicular)
+
+//     function square(value){
+
+//         return value * value
+//     }
+
+//     return alert("Hypotenuse is ==>" + hypotenuse)
+// }
+
+// calcHypotenuse()
+
+
+// Question 10 //
+
+
+// var length = prompt("Enter anything")
+
+// function variableLength(){
+
+//     alert(length.length)
+// }
+
+// variableLength(length)
+
+
+
+// Question 11 //
+
+
+// var num1 = +prompt("Enter first number")
+// var num2 = +prompt("Enter second number")
+// var num3 = +prompt("Enter third number")
+// var num4 = +prompt("Enter fourth number")
+// var num5 = +prompt("Enter fiftth number")
+
+// function largest(large){
+
+//     var large = Math.max(num1 , num2 , num3 , num4 , num5)
+
+//     return alert(large + " is greatest among them")
+  
+// }
+
+// largest(num1 , num2 , num3 , num4 , num5)
+
+
+
+// Question 12 //
+
+
+// var width = +prompt("Enter the width of your rectangle")
+// var height = +prompt("Enter the height of your rectangle")
+
+// function area(){
+
+//     var area = width * height
+//     alert("The area of you your rectangle is " + area)
+// }
+
+// area(width , height)
+
+
+
+// Question 13 //
+
+// Array ❌ 
+
+
+// Question 14 //
+
+// Array ❌
+
+
+// Question 15 //
+
+// var param = function inner() { 
+//     return typeof inner; 
+//    }
+//    alert(param()); 
+
+// Output is : function //
+
+
+// Question 16 //
+
+
+// var number = +prompt("Enter number")
+
+// var power = +prompt("Enter power you want to put on number")
+
+// function mathPower(){
+
+//     alert(Math.pow(number, power))
+// }
+
+// mathPower(number , power)
+
+
+
+// Question 17 //
+
+
+// function dice(){
+
+//     return alert(Math.round(Math.random() * 5) + 1)
+// }
+
+// dice()
+
+// Math.radom() ==> this will give value between 0 and 1 with points (example: 0.234571 , 0.9823451)
+
+// Math.round() ==> this will roundoff the value after .5 (example: 3.5 = 4)
+
+// Math.ceil() ==> this will give the upper value (example: 4.1 = 5 , 3.2 = 4)
+
+// Math.floor() ==> this will give the lower value (example: 2.9 = 2 , 4.6 = 4 , 5.8 = 5) // alert(Math.floor(2.9))
+
+
+
+// Question 20 //
+
+
+// var calcUpcase = prompt("Enter anything")
+
+// var userInput = calcUpcase.charAt(0).toUpperCase() + calcUpcase.slice(1)
+
+// alert(userInput)
+
+
+
+// Question 23 //
+
+
+// function type(userInput){
+
+//     return alert(typeof(userInput))
+// }
+
+// type(true)
+
+
+
+// Question 26 //
+
+
+// function calculateAge(birthYear , currenYear , age){
+
+//     var birthYear = +prompt("Enter your Birth year")
+//     var currenYear = 2024
+
+//     var age = currenYear - birthYear
+
+//     return alert ("you are " + age + " years old")
+// }
+
+// calculateAge()
+
+
+// Question 27 //
+
+
+// function calculateSupply(snack , age , amountPerDay , estimatedAge , totalSupply){
+
+//     var snack = prompt("What's your favorite snack..?")
+//     var age = +prompt("What's your Age..?")
+//     var amountPerDay = +prompt("How many times you get your favorite snack..?")
+
+//     var estimatedAge = 100
+
+//     var totalSupply = (amountPerDay * 365) * (estimatedAge - age) 
+
+//     return alert ("You will need " + totalSupply + " " + snack + " till the age of " + estimatedAge)
+// }
+
+// calculateSupply()
+
+
+
+// Question 28 //
+
+
+
+// circumference == 2pi r
+// area == pi r square
+
+
+// +++++ FOR-CIRCUMFERENCE +++++ //
+
+
+// function calcCircumference(radius , calcRadius){
+
+//     var radius = +prompt("Enter radius of circle to calculate it's circumference")
+//     var calcRadius = 2 * 3.14 * radius
+
+//     return alert ("Circumference is " + calcRadius)
+// }
+
+// calcCircumference()
+
+
+// +++++ FOR-AREA +++++ //
+
+
+// function calcArea(radius , calcRadius){
+
+//     var radius = +prompt("Enter radius of circle to calculate it's Area")
+//     var calcRadius = 3.14 * radius * radius
+
+//     return alert ("Area is " + calcRadius)
+// }
+
+// calcArea()
+
+
+
+// Question 29 //
+
+
+
+// function celsiusToFahrenheit(temperatureInC , fahrenheit){
+
+//     var temperatureInC = +prompt("Enter temperature Celcius")
+
+//     var fahrenheit = (temperatureInC * 9/5) + 32 
+
+//     return alert(temperatureInC + "C" + " is " + fahrenheit + "F")
+
+// }
+
+// celsiusToFahrenheit()
+
+
+
+// function fahrenheitToCelsius(temperatureInF , celcius){
+
+//     var temperatureInF = +prompt("Enter temperature in fahrenheit")
+
+//     var celcius = (temperatureInF -32) * 5/9
+
+//     return alert(temperatureInF + "F" + " is " + celcius + "C")
+// }
+
+// fahrenheitToCelsius()
