@@ -1135,3 +1135,236 @@
 // }
 
 // fahrenheitToCelsius()
+
+
+
+
+// ****************** ARRAYS Task ***************** //
+
+
+// Question 1 //
+
+
+// var studentName = []
+
+
+// Question 2 //
+
+
+// var studentName = []
+
+
+// Question 3 //
+
+
+// var students = ['waasey' , 'rafay' , 'jahanzaib']
+
+
+// Question 4 //
+
+
+// var numberArray = [2 , 4 , 6 , 8 , 10]
+
+
+// Question 5 //
+
+
+// var booleanArray = [true , false]
+
+
+// Question 6 //
+
+
+// var mixedArray = ['waasey' , 20 , true]
+
+
+// Question 7 //
+
+
+// var mobileNetworks = ['jazz' , 'ufone' , 'telenor' , 'zong' , 'onic']
+
+
+// Question 8 //
+
+
+// var qualifications = ['SSC' , 'HSC' , 'BCS' , 'BS' , 'BCOM' , 'MS' , 'M.PHIL' , 'P.HD']
+
+
+// Question 9 //
+
+
+// var movies = ['Avengers: Age of Ultron' , 'Spectre' , 'Jurassic World' , 'Inside out']
+
+// var showMovieLength = document.querySelector('#showMovieArrayLength')
+
+// showMovieLength.innerHTML = movies.length
+
+
+// Question 10 //
+
+
+// var cars = ['Lexus Lx-570' , 'Toyota Landcruiser LC-300' , 'Toyota Fortuner Legendar' , 'Toyota Vigo']
+
+// var showCarAtFirst = document.querySelector('#showCarAtFirstIndex')
+
+// var showCarAtLast = document.querySelector('#showCarAtLastIndex')
+
+// showCarAtFirst.innerHTML = cars[0]
+
+// showCarAtLast.innerHTML = cars[3]
+
+
+// Question 11 //
+
+
+// var studentName = ['shakoor' , 'ghafoor' , 'jabbaar']
+
+// var studentScore = [250 , 330 , 415]
+
+// var totalMarks = 500
+
+// var showStudentName = document.querySelector('#showStudentName')
+
+// var showStudentScore = document.querySelector('#showStudentScore')
+
+// var showStudentPercentage = document.querySelector('#showStudentPercentage')
+ 
+// showStudentName.innerHTML = studentName[0]
+
+// showStudentScore.innerHTML = studentScore[0]
+
+// showStudentPercentage.innerHTML = studentScore[0] / totalMarks * 100
+
+
+// Question 12 //
+
+
+// var colorArray = ['yellow' , 'blue' , 'pink' , 'orange']
+
+// a) var addColorBeg = prompt("Enter the color you want to add in the beginning...?")
+
+// colorArray.unshift(addColorBeg)
+
+
+// b) var addColorBeg = prompt("Enter the color you want to add in the end...?")
+
+
+// colorArray.push(addColorBeg)
+
+
+// c) colorArray.unshift('purple' , 'red')
+
+
+// d) colorArray.shift()
+
+
+// e) colorArray.pop()
+
+
+// f) var userIndex = +prompt("at which index you want to add a color...?")
+
+// var userColor = prompt("which color you want to add in the array...?")
+
+// colorArray.splice(userIndex , 0 , userColor)
+
+
+// g) var userIndexRemove = +prompt("from which index you want to remove the element..?")
+
+// var userCountRemove = +prompt("how many elements you want to remove from the array...?")
+
+// colorArray.splice(userIndexRemove , userCountRemove)
+
+
+// console.log(colorArray);
+
+
+// Question 13 //
+
+
+// var studentScore = [300 , 400, 249, 222, 112]
+
+// studentScore.sort()
+
+// console.log(studentScore);
+
+
+// Question 14 //
+
+// var fruits = ['mango' , 'orange' , 'banana' , 'apple' ]
+
+// fruits.sort()
+
+// console.log(fruits);
+
+
+// Question 15 //
+
+// var cities = ['karachi' , 'larkana' , 'dadu' , 'sehwan' , 'sukkur']
+
+// var selectedCities = cities.slice(1 , 4)
+
+// console.log(selectedCities);
+
+
+// Question 16 //
+
+
+// var arr = ['This' , 'is' , 'my' , 'cat']
+
+// console.log(arr.join(' '));
+
+
+// Question 17 //
+
+
+// var fifoArray = ['keyboard' , 'mouse' , 'printer' , 'monitor']
+
+// console.log(fifoArray.shift()); 
+// console.log(fifoArray.shift()); 
+// console.log(fifoArray.shift()); 
+// console.log(fifoArray.shift()); 
+
+
+
+// Question 18 //
+
+// var lifoArray = ['keyboard' , 'mouse' , 'printer' , 'monitor']
+
+// console.log(lifoArray.pop());
+// console.log(lifoArray.pop());
+// console.log(lifoArray.pop());
+// console.log(lifoArray.pop());
+
+
+// Question 19 //
+
+// var mobileManufacturers = ['apple' , 'Samsung' , 'Motorola' , 'Oppo']
+
+// var apple = document.querySelector('#apple')
+// var samsung = document.querySelector('#samsung')
+// var motorola = document.querySelector('#motorola')
+// var oppo = document.querySelector('#oppo')
+
+// apple.innerHTML = mobileManufacturers[0]
+
+// samsung.innerHTML = mobileManufacturers[1]
+
+// motorola.innerHTML = mobileManufacturers[2]
+
+// oppo.innerHTML = mobileManufacturers[3]
+
+
+// Question 20 //
+
+// var arr = [[], [], []]
+
+
+// Question 21 //
+
+// var mainArr = [
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+// ]
+
+// console.log(mainArr);
