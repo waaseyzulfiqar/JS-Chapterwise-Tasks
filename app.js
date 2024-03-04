@@ -1340,18 +1340,12 @@
 
 // var mobileManufacturers = ['apple' , 'Samsung' , 'Motorola' , 'Oppo']
 
-// var apple = document.querySelector('#apple')
-// var samsung = document.querySelector('#samsung')
-// var motorola = document.querySelector('#motorola')
-// var oppo = document.querySelector('#oppo')
+// var select = document.querySelector('#phones')
 
-// apple.innerHTML = mobileManufacturers[0]
+// for (i = 0; i < mobileManufacturers.length; i++){
 
-// samsung.innerHTML = mobileManufacturers[1]
-
-// motorola.innerHTML = mobileManufacturers[2]
-
-// oppo.innerHTML = mobileManufacturers[3]
+//     select.innerHTML += `<option>${mobileManufacturers[i]}</option>`
+// }
 
 
 // Question 20 //
@@ -1368,3 +1362,315 @@
 // ]
 
 // console.log(mainArr);
+
+
+
+// ****************** LOOPS Task ***************** //
+
+
+// Question 1 //
+
+
+// for(let i = 1; i <= 5; i++){
+
+//     console.log('Hello World');
+// }
+
+
+// Question 2 //
+
+
+// for(let i = 1; i <= 10; i++){
+
+//     console.log(i);
+// }
+
+
+// Question 3 //
+
+
+// const userNumber = prompt("Enter any number you want table of...?")
+
+// const userTableLength = prompt("Enter the length of your table...?")
+
+// for( i = 0; i <= userTableLength; i++){
+
+//     console.log(`${userNumber} * ${i} = ${userNumber * i}`);
+// }
+
+
+// Question 4 //
+
+
+// const phones = ['Nokia' , 'Samsung' , 'Apple' , 'Sony' , 'Huawei']
+
+// for(i = 0; i < phones.length; i++){
+
+//     console.log(phones[i]);
+// }
+
+
+
+// Question 5 //
+
+
+// const fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry']
+
+// for(let i = 0; i < fruits.length; i++){
+
+//     console.log(fruits[i]);
+    
+//     console.log(`Element at index ${i} is ${fruits[i]}`);
+// }
+
+
+
+// Question 6 //
+
+// not done ❌
+
+
+// Question 7 //
+
+// a)  // for(let i = 0; i <= 15; i++){
+
+//     console.log(i);
+// }
+
+
+// b)  // for(i = 10; i > 0; i--){
+
+//     console.log(i);
+// }
+
+
+// c) 
+
+// for(let i = 0; i <= 20; i=i+2){
+
+//     console.log(i);
+// }
+
+
+// d)
+
+// for(let i = 1; i <= 20; i= i+2){
+
+//     console.log(i);
+// }
+
+
+// e)
+
+// for(let i = 2; i <= 20; i=i+2){
+
+//     console.log(`${i}k`);
+// }
+
+
+
+// Question 8 //
+
+
+// const bakeryItems = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+
+// let userItem = prompt("Enter item name you want to buy...?")
+
+// let itemFound = false
+
+// for(i = 0; i < bakeryItems.length; i++){
+
+//     if(bakeryItems[i] === userItem){
+
+//         alert("Item found");
+//         itemFound = true
+//     }
+// }
+
+// if(itemFound == false){
+//     alert('Item not found');
+// }
+
+
+// Question 9 //
+
+
+// const arr = [24, 53, 78, 91, 12, 0, 5]
+
+// let largeNumber = 0 // arr[0] we can also use this
+
+// for (let i = 0; i < arr.length; i++){
+
+//     if(arr[i] > largeNumber){
+
+//         largeNumber = arr[i]
+//     }
+// }
+// console.log(largeNumber);
+
+
+// Question 10 //
+
+// const a = [24, 53, 78, 91, 12, 11]
+
+// let smallNumber = a[0]
+
+// for(let i = 0; i < a.length; i++){
+
+//     // i = 0 = 24
+//     // smallNumber ==> 12
+
+//        // 11 < 12
+//     if(a[i] < smallNumber){
+
+//         smallNumber = a[i]
+//     }
+// }
+
+// console.log(smallNumber);
+
+
+// Question 11 //
+
+
+// const nums = [24, 53, 78, 91, 12]
+
+// let largeNumber = nums[0]
+
+// let smallNumber = nums[0]
+
+// for(let i = 0; i < nums.length; i++){
+
+//     if(nums[i] > largeNumber){
+
+//         largeNumber = nums[i]  
+
+//     }else if(nums[i] < smallNumber){
+
+//         smallNumber = nums[i]
+//     }
+
+//     // i++
+// }
+
+// console.log(`largest is ${largeNumber}`);
+
+// console.log(`smallest is ${smallNumber}`);
+
+
+
+// Question 12 //
+
+
+// for(i = 1; i <= 100; i++){
+    
+//     if(i % 5 == 0){
+
+//         console.log(i);
+//     }
+// }
+
+
+
+// Question 13 //
+
+
+// const students = ["Ali", "Sami", "Taha", "Inam"];
+
+// const scores = [58, 73, 89, 90];
+
+// let table = document.querySelector('table')
+
+// for(let i = 0; i < students.length; i++){
+
+//     table.innerHTML += `<td>${students[i]}</td> <td>${scores[i]}</td>`
+// }
+
+
+// Question 14 //
+
+
+// const scores = [12, 45, 3, 22, 34, 50];
+
+// let userScore = prompt("Enter any number...?")
+
+// for(let i = 0; i < scores.length; i++){
+
+//     console.log(scores[i]);
+
+//     if(scores[i] == userScore){
+
+//         break;
+//     }
+
+// }
+
+
+
+// Question 15 //
+
+// const nested = [ [1,2,3] , [4,5,6] , [7,8,9] ]
+
+
+// for(let i = 0; i < nested.length; i++){
+
+//     let nestedArray = nested[i]
+
+//     let onLine = ''
+
+//     for(let j = 0; j < nestedArray.length; j++){
+
+//         // console.log(nestedArray[j]);
+//         onLine = onLine + nestedArray[j] 
+//     }
+//     console.log(onLine);
+    
+// }
+
+
+// Question 16 //
+
+// not done❌
+
+
+// Question 17 //
+
+
+// for (let i = 0; i <= 20; i++){
+
+//     if(i % 2 == 0){
+
+//         console.log(`${i} is even`);
+
+//     }else{
+
+//         console.log(`${i} is odd`);
+//     }
+// }
+
+
+// Question 18 //
+
+// not done ❌
+
+
+// Question 19 //
+
+
+// let star = ''
+
+// for(let i = 7; i > 0; i--){
+//     star += '*'
+//     console.log(star);
+// }
+
+
+
+
+// var stars = ''
+
+// for( let i = 0; i < 5; i++){
+
+//     stars += '*'
+//     console.log(stars);
+// }
