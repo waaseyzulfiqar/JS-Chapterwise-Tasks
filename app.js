@@ -1427,7 +1427,21 @@
 
 // Question 6 //
 
-// not done ❌
+
+// let showLength = document.querySelector('.length')
+
+// let items = document.querySelector('.show-items')
+
+// let userInput = +prompt("Enter your Length Array...?")
+
+// for(let i = 0; i < userInput; i++){
+
+//     let index = prompt("Enter value at index " + i)
+
+//     showLength.innerHTML = userInput
+
+//     items.innerHTML += index + "<br>"
+// }
 
 
 // Question 7 //
@@ -1630,7 +1644,11 @@
 
 // Question 16 //
 
-// not done❌
+// let userNum = +prompt("Enter any number")
+
+// for(let i = userNum; i >= 0; i = i - 0.5){
+//     console.log(i);
+// }
 
 
 // Question 17 //
@@ -1651,26 +1669,42 @@
 
 // Question 18 //
 
-// not done ❌
+
+// let product = 1;
+
+// for(let i = 1; i <= 7; i++){
+
+//     if(i % 2 !== 0){
+
+//         product = product * i
+
+//     }
+// }
+// console.log(product);
+
 
 
 // Question 19 //
 
+// not done ❌
 
-// let star = ''
 
-// for(let i = 7; i > 0; i--){
-//     star += '*'
-//     console.log(star);
+// Question 20 //
+
+
+// a)  for(let i = 1; i < 5; i++){
+//     console.log('*****');
 // }
 
 
-
-
-// var stars = ''
+// b)  var stars = ''
 
 // for( let i = 0; i < 5; i++){
 
 //     stars += '*'
 //     console.log(stars);
 // }
+
+// c)
+
+// not done ❌
