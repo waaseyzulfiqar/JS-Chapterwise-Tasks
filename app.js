@@ -1523,6 +1523,7 @@
 // console.log(largeNumber);
 
 
+
 // Question 10 //
 
 // const a = [24, 53, 78, 91, 12, 11]
@@ -1534,7 +1535,7 @@
 //     // i = 0 = 24
 //     // smallNumber ==> 12
 
-//        // 11 < 12
+//       // 11 < 12
 //     if(a[i] < smallNumber){
 
 //         smallNumber = a[i]
@@ -1542,6 +1543,8 @@
 // }
 
 // console.log(smallNumber);
+
+
 
 
 // Question 11 //
@@ -1623,8 +1626,8 @@
 
 // Question 15 //
 
-// const nested = [ [1,2,3] , [4,5,6] , [7,8,9] ]
 
+// const nested = [ [1,2,3] , [4,5,6] , [7,8,9] ]
 
 // for(let i = 0; i < nested.length; i++){
 
@@ -1635,7 +1638,7 @@
 //     for(let j = 0; j < nestedArray.length; j++){
 
 //         // console.log(nestedArray[j]);
-//         onLine = onLine + nestedArray[j] 
+//         onLine = onLine + nestedArray[j]    // nested[i][j]
 //     }
 //     console.log(onLine);
     
@@ -1647,7 +1650,9 @@
 // let userNum = +prompt("Enter any number")
 
 // for(let i = userNum; i >= 0; i = i - 0.5){
+
 //     console.log(i);
+
 // }
 
 
@@ -1702,8 +1707,10 @@
 // for( let i = 0; i < 5; i++){
 
 //     stars += '*'
+
 //     console.log(stars);
 // }
+
 
 // c)
 
