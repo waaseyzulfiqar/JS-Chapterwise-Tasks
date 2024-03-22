@@ -2014,9 +2014,12 @@
 
 
 
+
+
 // Question 20 //
 
 // not done ❌
+
 
 
 
@@ -2051,6 +2054,7 @@
 
 
 // Question 23 //
+
 
 // const para = document.querySelector('p')
 
