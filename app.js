@@ -1576,6 +1576,8 @@
 
 
 
+
+
 // Question 12 //
 
 
@@ -1586,6 +1588,7 @@
 //         console.log(i);
 //     }
 // }
+
 
 
 
@@ -1604,8 +1607,9 @@
 // }
 
 
-// Question 14 //
 
+
+// Question 14 //
 
 // const scores = [12, 45, 3, 22, 34, 50];
 
@@ -1656,6 +1660,8 @@
 // }
 
 
+
+
 // Question 17 //
 
 
@@ -1670,6 +1676,8 @@
 //         console.log(`${i} is odd`);
 //     }
 // }
+
+
 
 
 // Question 18 //
@@ -1689,9 +1697,13 @@
 
 
 
+
+
 // Question 19 //
 
 // not done ❌
+
+
 
 
 // Question 20 //
@@ -1715,3 +1727,379 @@
 // c)
 
 // not done ❌
+
+
+
+// ****************** STRING METHODS Task ***************** //
+
+
+// Question 1 //
+
+// const firstName = prompt('Enter your First Name');
+
+// const secondName = prompt('Enter your Second Name');
+
+// let fullName = firstName + ' ' + secondName
+
+// alert('Welcome ' + fullName)
+
+
+
+
+// Question 2 //
+
+// const para = document.querySelector('p')
+
+// const favMobile = prompt('Enter your favorite mobile phone model.')
+
+// para.innerHTML = `My favorite phone is : ${favMobile} <br> length of string is : ${favMobile.length}`
+
+
+
+
+// Question 3 //
+
+// const nationality = 'Pakistani'
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = `string : ${nationality} <br> index of 'n' : ${nationality.indexOf('n')}`
+
+
+
+
+// Question 4 //
+
+// const hello = 'Hello World'
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = `string : ${hello} <br> last index of 'L' : ${hello.lastIndexOf('l')}`
+
+
+
+
+// Question 5 //
+
+// const nationality = 'Pakistani'
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = `String : ${nationality} <br> Character at index 3 : ${nationality[3]}`
+
+
+
+
+// Question 6 //
+
+// const firstName = prompt('Enter your First Name');
+
+// const secondName = prompt('Enter your Second Name');
+
+// let fullName = firstName.concat(secondName)
+
+// alert('Welcome ' + fullName)
+
+
+
+
+// Question 7 //
+
+// const city = 'Hyderabad'
+
+// let repcity = city.replace('Hyder' , 'Islam')
+
+// alert(repcity)
+
+
+
+
+// Question 8 //
+
+// let message = 'Ali and Sami are best friends. They play cricket and football together.';
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = message.replaceAll('and' , '&')
+
+
+
+
+// Question 9 //
+
+// const para = document.querySelector('p')
+
+// const value = '472'
+
+// const num = Number(value)
+
+// para.innerHTML = `Value: ${value} <br> Type: ${typeof(value)} <br> Value: ${num} <br> Type: ${typeof(num)}`
+
+
+
+
+// Question 10 //
+
+// const url = prompt('Enter URL')
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = url.replace('www.' , '')
+
+
+
+
+// Question 11 //
+
+// const userInupt = prompt('Enter anything in LowerCase')
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = `Input: ${userInupt} <br> UpperCase: ${userInupt.toUpperCase()}`
+
+
+
+
+// Question 12 //
+
+// const userInupt = prompt('Enter anything in UpperCase')
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = `Input: ${userInupt} <br> LowerCase: ${userInupt.toLowerCase()}`
+
+
+
+
+// Question 13 //
+
+// const userInput = prompt('Enter anything')
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = `User Input: ${userInput} <br> Title Case: ${userInput[0].toUpperCase() + userInput.slice(1)}`
+
+
+
+
+// Question 14 //
+
+// const num = 40.250;
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = `Number: ${num} <br> Result: ${String(num).replace('.' , '')}`
+
+
+
+
+
+// Question 15 //
+
+// const para = document.querySelector('p')
+
+// const a = prompt('Enter first value')
+
+// const b = prompt('Enter second value')
+
+// const x = a + b
+
+// if(a == 3 & b == 3){
+
+//     para.innerHTML = `a is : ${a} <br> b is : ${b} <br> a + b is ${x}`
+
+// }else{
+
+//     alert('Sorry')
+// }
+
+
+
+
+// Question 16 //
+
+// const para = document.querySelector('p')
+
+// const a = prompt('Enter first value')
+
+// const b = prompt('Enter second value')
+
+// const x = a - b
+
+// if(a == 3 & b == 3){
+
+//     para.innerHTML = `a is : ${a} <br> b is : ${b} <br> a - b is ${x}`
+
+// }else{
+
+//     alert('Sorry')
+// }
+
+
+
+
+// Question 17 //
+
+// const userName = prompt('Enter UserName')
+
+// for(let i = 0; i < userName.length; i++){
+
+//     text = userName.slice(i , i + 1)
+
+//     if(text == '!' || text == ',' || text == '.' || text == '@' ){
+
+//         alert('Please Enter valid username')
+//     }
+
+// }
+
+
+
+
+// Question 18 //
+
+// const para = document.querySelector('p')
+
+// const bakeryItems = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+
+// const userItem = prompt('What do you want from our bakery..?').toLowerCase()
+
+// let found = false
+
+// for(let i = 0; i < bakeryItems.length; i++){
+
+//     if(userItem === bakeryItems[i]){
+
+//         found = true
+
+//         para.innerHTML = `${userItem} is available at index ${i} in our bakery`
+
+//         break
+//     }
+// }
+
+// if(found == false){
+
+//     para.innerHTML = `We are sorry ${userItem} is not available in our bakery`
+// }
+
+
+
+
+
+// Question 19 //
+
+// const para = document.querySelector('p')
+
+// const userInput1 = prompt('Enter any thing')
+
+// const userInput2 = prompt('Enter any thing')
+
+// if(userInput1 > userInput2){
+
+//     para.innerHTML = `${userInput1} is greater than ${userInput2}`
+
+// }else if(userInput1 < userInput2){
+
+//     para.innerHTML = `${userInput2} is greater than ${userInput1}`
+
+// }else if(userInput1 === userInput2){
+
+//     para.innerHTML = `${userInput1} is equal to ${userInput2}`
+
+// }else{
+
+//     alert('Error')
+// }
+
+
+
+// Question 20 //
+
+// not done ❌
+
+
+
+
+// Question 21 //
+
+// const para = document.querySelector('p')
+
+// const university = 'University of Karachi'
+
+// for(let i = 0; i < university.length; i++){
+
+    // console.log(university[i]);
+    
+// }
+
+
+
+
+
+// Question 22 //
+
+// const para = document.querySelector('p')
+
+// const city = prompt('Enter any thing')
+
+// para.innerHTML = `User Input : ${city} <br> last character of input is: ${city.charAt(city.length - 1)}`
+
+
+
+
+
+
+// Question 23 //
+
+// const para = document.querySelector('p')
+
+// const paragraph = 'The quick brown fox jump over the lazy dog'
+
+// let count = 0
+
+// for(let i = 0; i < paragraph.length; i++){
+
+//     extract = paragraph.toLowerCase().slice(i , i + 3)
+
+//     if(extract == 'the'){
+
+//         count = count + 1
+
+//         // count++ ==> we can also use this //
+//     }
+    
+// }
+
+// para.innerHTML = `Text: ${paragraph} <br> There are ${count} occurences of the word 'the'`
+
+
+
+
+
+// Question 24 //
+
+
+// const para = document.querySelector('p')
+
+// const country = 'Pakistan'
+
+// let vowel = 0
+
+// let consonets = 0
+
+// for(let i = 0; i < country.length; i++){
+
+//     let extract = country.slice(i , i + 1)
+
+//     if(extract == 'a' || extract == 'e' || extract == 'i' || extract == 'o' || extract == 'u'){
+
+//         vowel++
+
+//     }else{
+        
+//         consonets++
+        
+//     }
+// }
+// para.innerHTML = `vowels are : ${vowel} <br> consonents are : ${consonets}` 
