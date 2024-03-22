@@ -2107,3 +2107,69 @@
 //     }
 // }
 // para.innerHTML = `vowels are : ${vowel} <br> consonents are : ${consonets}` 
+
+
+
+
+
+
+// ****************** MATH METHODS Task ***************** //
+
+
+
+// Question 1 //
+
+// const para = document.querySelector('p')
+
+// const integer = prompt('Enter any positive integer...?')
+
+// if(integer > 0){
+
+//     para.innerHTML = `number : ${integer} <br> round off value : ${Math.round(integer)} <br> floor value : ${Math.floor(integer)} <br> ceil value : ${Math.ceil(integer)}`
+
+// }
+
+
+
+
+// Question 2 //
+
+// const para = document.querySelector('p')
+
+// const integer = prompt('Enter any Negative integer...?')
+
+// if(integer < 0){
+
+//     para.innerHTML = `number : ${integer} <br> round off value : ${Math.round(integer)} <br> floor value : ${Math.floor(integer)} <br> ceil value : ${Math.ceil(integer)}`
+
+// }
+
+
+
+
+// Question 3 //
+
+// const para = document.querySelector('p')
+
+// const integer = prompt('Enter any positive floating value...?')
+
+// if(integer > 0){
+
+//     para.innerHTML = `number : ${integer} <br> round off value : ${Math.round(integer)} <br> floor value : ${Math.floor(integer)} <br> ceil value : ${Math.ceil(integer)}`
+
+// }
+
+
+
+
+// Question 4 //
+
+// const para = document.querySelector('p')
+
+// const integer = prompt('Enter any Negative floating value...?')
+
+// if(integer < 0){
+
+//     para.innerHTML = `number : ${integer} <br> round off value : ${Math.round(integer)} <br> floor value : ${Math.floor(integer)} <br> ceil value : ${Math.ceil(integer)}`
+
+// }
