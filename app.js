@@ -2377,3 +2377,28 @@
 
 
 // Question 18 //
+
+// const laterDate = new Date('12 31 2020')
+
+// console.log(laterDate);
+
+
+
+// Question 19 //
+
+// const para = document.querySelector('p')
+
+// const today = new Date().getTime()
+
+// const thatDay = new Date('6 18 2015').getTime()
+
+// const result = today - thatDay
+
+// para.innerHTML = `${Math.round(result/1000/60/60/24)} have passed since 1st Ramadan , 2015`
+
+
+
+
+// Question 20 //
+
+// not done ❌
