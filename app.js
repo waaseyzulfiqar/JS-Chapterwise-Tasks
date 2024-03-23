@@ -2173,3 +2173,202 @@
 //     para.innerHTML = `number : ${integer} <br> round off value : ${Math.round(integer)} <br> floor value : ${Math.floor(integer)} <br> ceil value : ${Math.ceil(integer)}`
 
 // }
+
+
+
+
+// Question 5 //
+
+// const para = document.querySelector('p')
+
+// const integer = prompt('Enter any Numerical value...?')
+
+// if(integer < 0){
+
+//     para.innerHTML = `Absolute Value is : ${Math.abs(integer)}`
+
+// }else{
+
+//     para.innerHTML = `Absolute Value is : ${integer}`
+// }
+
+
+
+
+// Question 6 //
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = `Random Dice Value : ${Math.round(Math.random() * 6)}`
+
+
+
+
+// Question 7 //
+
+// const para = document.querySelector('p')
+
+// const coinToss = Math.ceil(Math.random() * 2)
+
+// if(coinToss == 1){
+
+//     para.innerHTML = `${coinToss} <br> Random coin Value : Tails`
+
+// }else{
+
+//     para.innerHTML = `${coinToss} <br> Random coin Value : Heads`
+
+// }
+
+
+
+// Question 8 //
+
+// const para = document.querySelector('p')
+
+// const value1To100 = Math.round(Math.random() * 100)
+
+// para.innerHTML = `Random number between 1 and 100 : ${value1To100}`
+
+
+
+
+// Question 9 //
+
+// const para = document.querySelector('p')
+
+// const userVal = +prompt('Enter your weight in kilograms...?')
+
+// if(Number.isInteger(userVal)){
+
+//     para.innerHTML = `The weight of user is : ${parseInt(userVal)} kilograms`
+
+// }else{
+
+//     para.innerHTML = `The weight of user is : ${parseFloat(userVal)} kilograms`
+
+// }
+
+
+
+
+// Question 10 //
+
+// const secretNumber = 9
+
+// const userNumber = +prompt('Enter any value between 1 to 10')
+
+// if(userNumber === secretNumber){
+
+//     alert('Congratulations! You won the game')
+
+// }else{
+
+//     alert('Better luck next time')
+// }
+
+
+
+
+// Question 11 //
+
+// const para = document.querySelector('p')
+
+// para.innerHTML = new Date()
+
+
+
+// Question 12 //
+
+// const para = document.querySelector('p')
+
+// const getMonth = new Date()
+
+// const months = ['january' , 'febuary' , 'march' , 'april' , 'june' , 'july' , 'august' , 'september', 'october' , 'november' , 'december']
+
+// para.innerHTML = months[getMonth.getMonth()]
+
+
+
+
+// Question 13 //
+
+// const para = document.querySelector('p')
+
+// const today = new Date()
+
+// const days = ['sun','Mon', 'tue' , 'wed' , 'thur' , 'fri' , 'sat']
+
+// para.innerHTML = days[today.getDay()]
+
+
+
+
+// Question 14 //
+
+// const date = new Date()
+
+// const weekend = date.getDay()
+
+// if(weekend === 0 || weekend === 6){
+
+//     alert("It's Fun day")
+
+// }else{
+
+//     alert('chal farigh')
+// }
+
+
+
+// Question 15 //
+
+// const date = new Date()
+
+// const days15 = date.getDate()
+
+// if(days15 < 16){
+
+//     alert('first fifteen days of month')
+
+// }else{
+
+//     alert('last days of month')
+// }
+
+
+
+// Question 16 //
+
+// const para = document.querySelector('p')
+
+// const today = new Date()
+
+// const mSeconds = Date.now()
+
+// const min = mSeconds / 1000 / 60
+
+// para.innerHTML = `Current date : ${today} <br> Elapsed milliseconds since January 1, 1970 : ${mSeconds} <br> Elapsed Minutes since January 1, 1970 : ${min}` 
+
+
+
+
+// Question 17 //
+
+// const today = new Date()
+
+// console.log(today.getHours());
+
+// if(today.getHours() > 12){
+
+//     alert('Its AM')
+
+// }else{
+
+//     alert('Its PM')
+// }
+
+
+
+
+// Question 18 //
