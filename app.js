@@ -2270,6 +2270,11 @@
 
 
 
+// ****************** DATE AND TIME METHODS Task ***************** //
+
+
+
+
 // Question 11 //
 
 // const para = document.querySelector('p')
