@@ -879,18 +879,18 @@
 
 // Question 8 //
 
-function counting(){
+// function counting(){
 
-    const startingNum = +prompt('Enter starting Number')
-    const endingNum = +prompt('Enter Ending Number')
+//     const startingNum = +prompt('Enter starting Number')
+//     const endingNum = +prompt('Enter Ending Number')
 
-    for(let i = startingNum; i <= endingNum; i++){
+//     for(let i = startingNum; i <= endingNum; i++){
 
-        document.write(i + '<br>')
-    }
-}
+//         document.write(i + '<br>')
+//     }
+// }
 
-counting()
+// counting()
 
 
 
